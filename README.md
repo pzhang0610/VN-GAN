@@ -1,6 +1,6 @@
 # VN-GAN
 An tensor flow implementation of VN-GAN. The framework is as follow,
-* Frameworkof VN-GAN
+* Framework of VN-GAN
 
 <img src="./model/framework.png" width = "600" height = "300" alt="Framework of VN-GAN" align=center />
 
