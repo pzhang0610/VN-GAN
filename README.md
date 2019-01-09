@@ -37,6 +37,11 @@ python run.py --batch_size 1
 ```
 ## Examples
 
-Attached are some examples, the first column are inputs, the first row are references, and the bottom 11 x 11 are generated gaits,
+An example of view normalized gaits in terms of input gaits in arbitrary views and their corresponding reference gaits. Each three columns are input gaits, reference gaits and synthesized gaits in normal view.
+
+<div align=center>
+<img src="./sample/sample.png" alt="Framework of VN-GAN" align=center />
+</div>
+
 
 
