@@ -4,12 +4,12 @@ An tensor flow implementation of VN-GAN. The framework is as follow,
 
 <img src="./model/framework.png" width = "600" height = "300" alt="Framework of VN-GAN" align=center />
 
-* Two-stage design structure
-
+* Two-stage structure
+<div align=center>
 <img src="./model/two-stage.png" width = "600" height = "300" alt="Framework of VN-GAN" align=center />
-
+</div>
 ## Requirements
-* pytorch v1.0.0
+* tensorflow 
 * PIL
 * matplotlib
 * numpy
