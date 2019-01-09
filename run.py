@@ -7,7 +7,7 @@ from mylog import myLog
 os.environ["CUDA_VISIBLE_DEVICES"]="0"
 parser = argparse.ArgumentParser(description="")
 
-parser.add_argument('--dataset_dir', dest="dataset_dir", default="../../geiGAN/gei", help="path to dataset")
+parser.add_argument('--dataset_dir', dest="dataset_dir", default="../data/gei", help="path to dataset")
 parser.add_argument('--img_height', dest="img_height", default=64, help="image height")
 parser.add_argument('--img_width', dest="img_width", default=64, help="img width")
 parser.add_argument('--num_class', dest="num_class", default=62, help="number of classes in stage 2")
@@ -36,7 +36,7 @@ parser.add_argument("--pf_dim", dest="pf_dim", type=int, default=64, help="chann
 parser.add_argument("--if_dim", dest="if_dim", type=int, default=64, help="channels for identity classifier")
 parser.add_argument("--z_dim", dest="z_dim", type=int, default=64, help="channels for noise input")
 
-parser.add_argument("--is_train", dest="is_train", type=bool, default=True, help="if True: running train, else: running test")
+parser.add_argument("--is_train", dest="is_train", action=store_true, help="if True: running train, else: running test")
 # paths to store logs and models
 parser.add_argument("--logs", dest="logs", default="./logs/20180920", help="path to store summaries")
 parser.add_argument("--checkpoint_dir", dest="checkpoint_dir", default="./checkpoint/20180920", help="path to store the model")
