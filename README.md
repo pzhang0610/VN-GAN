@@ -1,5 +1,5 @@
 # VN-GAN
-An tensor flow implementation of VN-GAN. The framework is as follow,
+An tensorflow implementation of VN-GAN. The framework is as follow,
 * Framework of VN-GAN
 
 <div align=center>
