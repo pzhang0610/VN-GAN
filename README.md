@@ -37,7 +37,7 @@ python run.py --batch_size 1
 ```
 ## Examples
 
-An example of view normalized gaits in terms of input gaits in arbitrary views and their corresponding reference gaits. Each three columns are input gaits, reference gaits and synthesized gaits in normal view.
+An example of view normalized gaits in terms of input gaits in arbitrary views and their corresponding reference gaits. Each three columns are one group in which each column contains input gaits, reference gaits and synthesized gaits in normal view, respectively.
 
 <div align=center>
 <img src="./sample/sample.jpg" width = "800" height = "300" alt="An example of synethsized gaits in normalized view." align=center />
