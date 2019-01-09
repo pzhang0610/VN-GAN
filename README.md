@@ -2,7 +2,9 @@
 An tensor flow implementation of VN-GAN. The framework is as follow,
 * Framework of VN-GAN
 
+<div align=center>
 <img src="./model/framework.png" width = "600" height = "300" alt="Framework of VN-GAN" align=center />
+</div>
 
 * Two-stage structure
 <div align=center>
